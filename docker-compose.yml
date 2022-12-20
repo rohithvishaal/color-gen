@@ -1,0 +1,7 @@
+version: '3.0'
+services:
+  rohvis-color-flipper: 
+    build: .
+    image: color-flipper:1.0
+    ports:
+      - 5500:5500
